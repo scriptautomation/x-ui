@@ -8,7 +8,7 @@ plain='\033[0m'
 cur_dir=$(pwd)
 
 # GitHub 加速代理前缀
-GH_PROXY="https://gh-proxy.com/"
+GH_PROXY="https://gh-proxy.org/"
 
 # check root
 [[ $EUID -ne 0 ]] && echo -e "${red}错误：${plain} 必须使用root用户运行此脚本！\n" && exit 1
